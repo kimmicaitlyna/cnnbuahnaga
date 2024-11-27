@@ -6,7 +6,7 @@ from PIL import Image
 
 #load model
 #sesuaikan dengan path model yang telah di dump dalam format .h5
-model = load_model(r'D:\SURYA\UAJY\Semester 5\Asdos Machine Learning\Pemegang Modul\Modul CNN\Notebook2\model_mobilenet.h5')  
+model = r'model_mobilenet.h5'
 class_names = ['Matang', 'Mentah'] #nama kelas yang akan diprediksi
 
 #fungsi untuk memproses dan mengklasifikasikan gambar
